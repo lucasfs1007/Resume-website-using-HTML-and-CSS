@@ -1,2 +1,2 @@
 # HTML
-Projects in HTML and CSS languagens.
+Resume in HTML and CSS languages.
