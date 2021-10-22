@@ -1,0 +1,237 @@
+img{
+    border-radius: 100%;
+    border:1px solid transparent; 
+    
+}
+body{
+    background-color:silver;
+    text-align: center;
+}
+h1{
+    color:white
+}
+button {
+    background: white;
+  }
+  
+  button:active{
+      background:transparent;
+  }
+  
+  button:focus{
+      background:transparent;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: Rubik, sans-serif;
+    color:white;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.inicio {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    margin-top: 35vh;
+    animation: fade 4s;
+}
+
+.button_1 {
+    margin: 5vw;
+}
+
+.welcome {
+    font-size: 2vw;
+}
+
+.apresentacao {
+    height: 100vh;
+}
+
+.eu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.eu_2 {
+    font-size: 1vw;
+    margin-top: 15vh;
+}
+
+.eu_4 {
+    border-radius: 50%;
+}
+
+.button_2 {
+    margin-top: 3vh;
+    padding: 0.5vw;
+}
+
+.formacao {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.estudos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45vh;
+}
+
+.titulo {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    color:black;
+    font-size: 1.5vw;
+}
+
+.button_3 {
+    margin-top: 15vh;
+}
+
+.interesses {
+    height: 100vh;
+}
+
+.to_do {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vw;
+    padding-top: 25vh;
+    font-size: 20px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.linguagens {
+    margin-left: 2vw;
+    text-align: left;
+}
+
+.contato {
+    height: 100vh;
+    text-align: center;
+    font-size:20px;
+}
+
+.findme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.findme img {
+    height: 10vh;
+}
+.linkedin h1 {
+    margin-left: 6px;
+}
+
+.email h1 {
+    margin-left: 13px;
+}
+
+h5 {
+    font-weight: lighter;
+    font-size: 15px;
+    padding: 0.1vw;
+}
+
+button {
+    background-color: #fff;
+    color:black;
+    padding: 1vw;
+    width: 25vh;
+    font-size: 2vh;
+    font-weight: bolder;
+    border: none;
+    border-radius: 25rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:chocolate;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+
+p1 {
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 300px) {
+    .titulo {
+        font-size: 3vw;
+    }
+
+    p1 {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 15px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    img {
+        height: 20vh;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .titulo {
+        font-size: 3vw;
+    }
+
+    p1 {
+        font-size: 2vw;
+    }
+}
+
+@keyframes fade {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+#interests h1{
+    text-align:left;
+
+    
+}
+.button_6{
+    align-items: center;
+}
+.eu_2 h1{
+    color:black;
+}
+.to_do h1{
+    color:black;
+}
+.button_4{
+    align-items: center;
+}
+.linguagem{
+    color:gold
+}
